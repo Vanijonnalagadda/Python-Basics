@@ -1,0 +1,5 @@
+import random  # Import the random module
+
+participants = ["Vani", "John", "Emma", "Raj", "Alice"]
+winner = random.choice(participants)  # Select a random participant
+print(f"The lucky draw winner is: {winner}")
